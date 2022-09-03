@@ -140,7 +140,7 @@ A simple mental model is to think of Connext as the liquidity layer to an AMB me
 
 ### What does the Connext flow look like?
 
-![alt text](https://github.com/connext/ethglobal-guides/blob/main/assets/optimistic.png)
+![alt text](https://github.com/connext/ethglobal-guides/blob/main/assets/Connext_quick_overview.png)
 
 In this diagram we can observe two domains, "origin" and "destination", and two paths, "fast" and "slow".
 
@@ -180,6 +180,9 @@ Find our discord at https://discord.gg/pef9AyEhNz and join the `dev-hub` channel
 The main entrypoint for interacting with the Connext protocol is `xcall`. This method kicks off a crosschain interaction, and all the user has to do is wait for it to complete on the destination chain. There are *no required user interactions past this transaction*!
 
 Subgraphs are available to track the progress of all in-flight transactions.
+
+ > If you are interested in becoming elligible for our [EthGlobal `xcall` pool bounty](https://www.notion.so/connext/Connext-Hacker-Kit-febb25e70b6c4596a57a1e05b6df4b19#e6240c491e17496cb7cd02e3d40daf09) make sure to follow this simple [quickstart tutorial](https://docs.connext.network/developers/sdk/sdk-quickstart) to submit your first `xcall`!
+
 
 ### Usage
 
